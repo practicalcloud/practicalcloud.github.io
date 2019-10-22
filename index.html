@@ -37,8 +37,9 @@
     h1 {
       position: relative;
       font-size: 1.5em;
-
-      margin-top: 0; /* TOOD: more specific */
+      line-height: 1.17em;
+      letter-spacing: -0.08px;
+      margin-top: 2.5rem; /* TOOD: more specific */
     }
 
     /* TODO: not awesome - how to make it stick to the text rather than bounding box... */
@@ -47,7 +48,7 @@
       content: '';
       display: inline-block;
       position: absolute;
-      top: -2rem;
+      top: -1.2rem;
       right: 2rem;
       width: 5.25rem;
       height: 5.25rem;
@@ -65,36 +66,24 @@
     /* a:visited ? */
 
     .main {
-      margin: 0 var(--side-margin);
+      margin: 2rem var(--side-margin) 0 var(--side-margin);
     }
 
     .logo {
-      background-image: url("./assets/logo.svg");
+      background-image: url("./assets/logo-2.svg");
       background-size: contain;
       background-repeat: no-repeat;
       background-position: top left;
-      min-height: 10em;
-      min-width: 10em;
-      margin-left: -2.5em;
-    }
-
-    .talkabout {
-      color: var(--mellow-fg-color);
-    }
-
-    .talkabout > p {
-      margin-bottom: 0;
-    }
-
-    .talkabout > p+ul {
-      margin-top: 0;
+      width: 5.25rem;
+      height: 4.2rem;
+      /* margin-left: -2.5em; */
     }
 
     .contact {
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-bottom: 1em;
+      margin: 2rem 0 1rem 0;
     }
 
     .contact > p {
@@ -127,13 +116,13 @@
       background-size: 106%;
       background-position: -0.5rem 0;
       background-repeat: no-repeat;
-      min-height: 7rem;
+      min-height: 10rem;
 
       display: flex;
       flex-direction: row;
-      align-items: center;
+      align-items: flex-start;
       justify-content: space-evenly;
-      padding: 0 2.5rem;
+      padding: 1rem 2.5rem;
     }
 
     .social-media-logo {
@@ -163,14 +152,6 @@
   <div class="main">
     <div class="logo"></div>
     <h1>Get practical with complexity and uncertainty</h1>
-    <section class="talkabout">
-      <p>Talk to us about</p>
-      <ul>
-        <li>working smarter</li>
-        <li>bringing yourself to work</li>
-        <li>living with change</li>
-      </ul>
-    </section>
     <div class="contact">
       <p>Work with us!</p>
       <a href="mailto:hello@practicalcloud.eu">hello@practicalcloud.eu</a>
