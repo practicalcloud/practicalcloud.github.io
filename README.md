@@ -3,6 +3,8 @@ Practical Cloud main site
 
 
 ## TODO
+* switch to img over css background image for actual content images
+* add service worker for cache & offline terrain safety
 * add JSON LD for google search, example:
 
 ```html
