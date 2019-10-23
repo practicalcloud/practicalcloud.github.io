@@ -76,10 +76,6 @@
     /* a:visited ? */
 
     .logo {
-      background-image: url("./assets/logo-2.svg");
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: top left;
       width: 5.25rem;
       height: 4.2rem;
     }
@@ -148,21 +144,17 @@
       min-height: 10rem;
     }
 
+    /* hover effects for link images! */
     .social-media-logo {
-      background-repeat: no-repeat;
-      background-size: contain;
       min-width: 3.33rem;
       min-height: 3.33rem;
     }
 
-    /* TODO: CSS-ities - why not simply img? */
     .instagram {
-      background-image: url("./assets/ig.svg");
       border-radius: 1rem;
     }
 
     .linkedin {
-      background-image: url("./assets/in.svg");
       border-radius: 0.25rem;
     }
 
@@ -170,7 +162,7 @@
 </head>
 <body>
   <main>
-    <div class="logo"></div>
+    <img class="logo" src="./assets/logo-2.svg"/>
     <h1>Get practical with complexity and uncertainty</h1>
     <div class="contact">
       <p>Work with us!</p>
@@ -180,8 +172,8 @@
   </main>
   <div class="footer-wrapper">
   <footer>
-    <a class="social-media-logo instagram" href="https://instagram.com/practicalcloud"></a>
-    <a class="social-media-logo linkedin" href="https://www.linkedin.com/company/practicalcloud"></a>
+    <a href="https://instagram.com/practicalcloud"><img class="social-media-logo instagram" src="./assets/ig.svg"/></a>
+    <a href="https://www.linkedin.com/company/practicalcloud"><img class="social-media-logo linkedin" src="./assets/in.svg"/></a>
   </footer>
   </div>
 </body>
