@@ -91,6 +91,13 @@
       border-radius: 2.625rem;
     }
 
+    /* TODO: for some reason I simply took the design done on 414px (iPhone plus) and have that as base... ehm... */
+    @media (max-width: 413px) {
+      h1::after {
+        right: 0;
+      }
+    }
+
     a {
       color: var(--fg-color);
       text-decoration: none;
