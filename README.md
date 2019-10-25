@@ -2,6 +2,8 @@
 Practical Cloud main site
 
 ## TODO
+* add basic build process => minimize css & html and possibly add transformations to support old browsers...
+* possibly something like hugo to get the text in markdown
 * add service worker for cache & offline terrain safety
 * add traced svg inlined (but it will only show on 3G :D)
 * more SEO stuff?
